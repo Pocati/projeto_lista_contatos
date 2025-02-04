@@ -17,7 +17,7 @@ form.addEventListener('submit', function (e) {
 function adicionaLinha() {
 
     if (contatos.includes(inputNumero.value)) {
-        alert(`A atividade ${inputNumero.value} já foi inserida.`)
+        alert(`O número ${inputNumero.value} já foi inserido.`)
     } else {
         contatos.push(inputNumero.value);
 
